@@ -1,14 +1,14 @@
 {
     "name": "jxlwqq/composer-viewer",
-    "description": "description...",
+    "description": "Composer Viewer for Laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
     "homepage": "https://github.com/jxlwqq/composer-viewer",
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "jxlwqq",
+            "email": "jxlwqq@gmail.com"
         }
     ],
     "require": {
