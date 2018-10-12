@@ -10,6 +10,8 @@ A web interface of composer packages in laravel.
 ## Installation
 ```
 composer require jxlwqq/composer-viewer
+
+php artisan admin:import composer-viewser
 ```
 
 Open http://your-host/admin/composer-viewer
