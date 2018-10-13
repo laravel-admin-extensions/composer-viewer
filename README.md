@@ -8,12 +8,26 @@ A web interface of composer packages in laravel.
 
 
 ## Installation
-```
+```bash
 composer require jxlwqq/composer-viewer
-
+# If you want to add a link entry in the left menu, use the following command to import
 php artisan admin:import composer-viewser
 ```
 
+## Configuration
+
+In the extensions section of the config/admin.php file, add configurations
+
+```php
+'extensions' => [
+    'composer-viewer' => [
+        // Set this to false if you want to disable this extension
+        'enable' => true,
+    ]
+]
+```
+
+## Usage
 Open http://your-host/admin/composer-viewer
 
 And you can find these installed packages.
