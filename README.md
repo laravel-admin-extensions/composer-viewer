@@ -32,6 +32,10 @@ Open http://your-host/admin/composer-viewer
 
 And you can find these installed packages.
 
+## More resources
+
+[Awesome Laravel-admin](https://github.com/jxlwqq/awesome-laravel-admin)
+
 ## License
 
 Licensed under [The MIT License (MIT)](LICENSE).
