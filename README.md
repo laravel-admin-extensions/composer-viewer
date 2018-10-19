@@ -2,12 +2,17 @@
 
 A web interface of composer packages in laravel.
 
+
+
 ## Screenshot
 
 ![screenshot](https://user-images.githubusercontent.com/2421068/46718077-a7fadc00-cc9c-11e8-9219-c8a2bac1219e.png)
 
 
 ## Installation
+
+> Before you install, make sure the composer command can be executed globally.
+
 ```bash
 composer require jxlwqq/composer-viewer
 # If you want to add a link entry in the left menu, use the following command to import
