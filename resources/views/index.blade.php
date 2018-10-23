@@ -13,7 +13,7 @@
             @foreach($packages as $index => $package)
                 <tr>
                     <td>{{ $index+1 }}.</td>
-                    <td>{{$package['name']}}</td>
+                    <td><a href="https://packagist.org/packages/{{$package['name']}}" target="_blank">{{$package['name']}}</a></td>
                     <td>{{$package['version']}}</td>
                     <td>{{ $package['latest'] }}</td>
                     <td><span class="label {{$package['label']}}">{{ $package['latest-status'] }}</span></td>
