@@ -16,7 +16,7 @@ A web interface of composer packages in laravel.
 ```bash
 composer require jxlwqq/composer-viewer
 # If you want to add a link entry in the left menu, use the following command to import
-php artisan admin:import composer-viewser
+php artisan admin:import composer-viewer
 ```
 
 ## Configuration
