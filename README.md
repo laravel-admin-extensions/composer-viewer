@@ -26,7 +26,7 @@ In the extensions section of the config/admin.php file, add configurations
         // Set this to false if you want to disable this extension
         'enable' => true,
         // Set the location of composer command
-        'which-composer' => '/usr/local/bin/composer', // !! it's impotent !!
+        'which-composer' => '/usr/local/bin/composer', // !! it's important !!
     ]
 ]
 ```
