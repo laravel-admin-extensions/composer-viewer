@@ -19,7 +19,8 @@ class ComposerViewerController extends Controller
     {
         $which_composer = config('admin.extensions.composer-viewer.which-composer', '/usr/local/bin/composer');
         try {
-            $command = 'cd ' . base_path() . ' && ' . $which_composer . ' show --latest --format=json';
+            $command = 'export COMPOSER_HOME="$HOME/.config/composer"; ';
+            $command .= 'cd ' . base_path() . ' && ' . $which_composer . ' show --latest --format=json';
             exec($command, $output);
             $packages = json_decode(implode('', $output), true)['installed'];
 
